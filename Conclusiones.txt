@@ -1,0 +1,10 @@
+Conclusiones de la prueba E2E
+
+1. La utilización del lenguaje Gherkin permite a usuarios de negocio(no técnicos) comprender el caso de prueba a ejecutar
+2. Serenity brinda la facilidad de manejar capas entre el feature, stepdefinitions, tareas y paginas
+3. Se permite la facilidad de poder pasar la data como parámetros desde un CSV o un archivo Excel
+4. La página de la prueba, facilita el encontrar los localizadores de manera rápida sin ningún problema
+5. La estructura de carpetas del proyecto en Serenity permite tener código organizado y facilita su escalabilidad
+
+En resúmen, esta evaluación permite poner a prueba los conocimientos necesarios para realizar pruebas automatizadas E2E
+utilizando una tecnología que requiere una mínima curva de aprendizaje y permite realizar y escalar a casos mucho mas complejos.
