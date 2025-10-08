@@ -78,6 +78,20 @@
             <version>3.23.1</version>
             <scope>test</scope>
         </dependency>
+        <!-- Dependencia de Karate -->
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-apache</artifactId>
+            <version>1.4.0</version> <!-- Cambiar a la última versión estable -->
+            <scope>test</scope>
+        </dependency>
+        <!-- Dependencia para generar reportes -->
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-junit5</artifactId>
+            <version>1.4.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -140,6 +154,17 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- Plugin para ejecutar pruebas con Karate -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <includes>
+                        <include>**/*.feature</include>
+                    </includes>
+                </configuration>
             </plugin>
         </plugins>
     </build>

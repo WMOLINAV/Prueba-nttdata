@@ -1,3 +1,10 @@
+Conclusiones karate
+
+1. Karate es una herramienta poderosa para pruebas de servicios REST, ya que permite escribir pruebas de manera declarativa y sencilla.
+2. La API de PetStore proporciona una buena base para practicar pruebas de servicios REST.
+3. Los reportes generados por Karate son detallados y útiles para el análisis de resultados.
+4. Es importante manejar correctamente los datos de entrada y salida para garantizar la reproducibilidad de las pruebas.
+
 Conclusiones de la prueba E2E
 
 1. La utilización del lenguaje Gherkin permite a usuarios de negocio(no técnicos) comprender el caso de prueba a ejecutar
