@@ -35,12 +35,10 @@ public class CarritoDeComprasStepDefinitions {
         );
     }
 
-    @When("Agregue dos productos al carrito")
-    public void AgregarProductos() {
+    @When("Agregue dos productos al carrito {string}")
+    public void AgregarProductos(String producto) {
         when(theActorInTheSpotlight()).wasAbleTo(
-                Click.on(PaginaPrincipal.PRODUCTO_UNO),
-                Click.on(PaginaPrincipal.PRODUCTO_DOS)
-
+                Click.on(PaginaPrincipal.PRODUCTO.of(producto))
         );
 
     }
